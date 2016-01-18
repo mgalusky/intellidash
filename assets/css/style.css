@@ -1,1 +1,47 @@
 /* Scratch, you say? */
+body{
+  /*margin:0;*/
+  font-family:'Open Sans', sans-serif;
+  font-weight:300;
+}
+.blue {
+  background-color: rgb(55, 123, 181);
+}
+.green{
+  background-color: rgb(84, 151, 115)
+}
+.gray-dk{
+  background-color: rgb(255, 255, 255);
+}
+.gray-md{
+  background-color: rgb(240, 240, 240);
+}
+.gray-lt{
+  background-color: rgb(248, 248, 248);
+}
+.primary-text{
+  color: rgb(255, 255, 255);
+}
+.secondary-text{
+  color: rgb(248, 248, 248);
+}
+
+header{
+  height:75px;
+  line-height:75px;
+}
+
+header .logo{
+  float:left;
+}
+header .logo img{
+  vertical-align:middle;
+}
+header .text{
+  float:left;
+  margin-left:20px;
+  font-size:24px;
+}
+nav{
+  float:right;
+}

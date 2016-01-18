@@ -2,12 +2,54 @@
 <html>
   <head>
     <title>Intellidash</title>
-    <!-- We should put some meta tags here, right? -->
+    <meta charset="UTF-8">
+    <meta rel="description" content="Business Intelligence Dashboard">
+    <meta rel="keywords" content="e-commerce, analytics, business, intelligence">
+    <meta rel="author" content="Melissa Galusky">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type='text/css'>
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
 
   <body>
+    <header class="container-fluid gray-md">
+
+      <div class="logo">
+        <img src="assets/images/icon.png" alt="Intellidash logo">
+      </div>
+      <div class="text">
+        Intellidash
+      </div>
+
+      <nav>
+        <button type="button" class="btn logout blue secondary-text">
+          Logout
+        </button>
+      </nav>
+
+    </header>
+
+    <main class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 gray-md">
+      <!-- SEARCH BAR -->
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search ...">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span>
+              </button>
+            </span>
+          </div>
+      <!-- NAVIGATION -->
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation" class="active"><a href="#"><span class="glyphicon glyphicon-dashboard"></span> Dasboard</a></li>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-user"></span> Customers</a></li>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Orders</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
     
   </body>
 </html>
