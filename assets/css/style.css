@@ -53,8 +53,12 @@ nav{
 .search{
   padding:0 15px;
 }
-.nav li{
-  color:orange;
+.sidebar .nav li a{
+  font-size:16px;
+  color:#222;
+}
+.sidebar .nav li a .glyphicon{
+  margin-right:7px;
 }
 .nav-pills li{
   border-bottom:1px solid #A9A9A9;
